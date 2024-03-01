@@ -30,7 +30,6 @@ import Link from "next/link";
 
 //next router
 import { useRouter } from "next/router";
-
 const Nav = () => {
   const router = useRouter();
   const pathname = router.pathname;
